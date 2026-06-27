@@ -1,0 +1,18 @@
+{
+  "name": "movie-bot",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Pure Telegram movie bot with forced-subscription gate and channel-based delivery. Self-contained — talks to Supabase directly.",
+  "main": "src/index.js",
+  "license": "ISC",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.5",
+    "movie-bot-workspace": "file:..",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
